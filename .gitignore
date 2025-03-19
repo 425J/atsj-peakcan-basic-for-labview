@@ -1,0 +1,17 @@
+# ignore everything
+/*
+
+# exceptions
+!src/
+!src/**
+!.gitignore
+!README.md
+!LICENSE
+
+!*.lvproj
+!*.vipc
+!download-support.bat
+
+# ignore support
+src/support/
+src/support/**
