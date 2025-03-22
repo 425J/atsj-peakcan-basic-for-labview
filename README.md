@@ -109,7 +109,7 @@ where PCANBasic.dll
 |:-------------------------------------------------------|:----------------------------------|:----------|
 | support\PCANBasic_enu.chm; CAN_Initialize              | initialize                        | ✔        |
 | support\PCANBasic_enu.chm; CAN_InitializeFD            | initialize fd                     | ✔        |
-| support\PCANBasic_enu.chm; CAN_Uninitialize            | deinitialize                      | ✔        |
+| support\PCANBasic_enu.chm; CAN_Uninitialize            | uninitialize                      | ✔        |
 | support\PCANBasic_enu.chm; CAN_Reset                   | reset                             | ✔        |
 | support\PCANBasic_enu.chm; CAN_GetStatus               | get status                        | ✔        |
 | support\PCANBasic_enu.chm; CAN_Read                    | read                              | ✔        |
@@ -151,10 +151,10 @@ where PCANBasic.dll
 | support\PCANBasic_enu.chm; TPCANParameter.html#BITRATE_ADAPTING         | get bitrate adapting         | set bitrate adapting         | ✔        |
 | support\PCANBasic_enu.chm; TPCANParameter.html#BITRATE_INFO             | get bitrate info             |                              | ✔        |
 | support\PCANBasic_enu.chm; TPCANParameter.html#BITRATE_INFO_FD          | get bitrate info fd          |                              | ❌        |
-| support\PCANBasic_enu.chm; TPCANParameter.html#BUSSPEED_NOMINAL         | get busspeed nominal         |                              | ❌        |
-| support\PCANBasic_enu.chm; TPCANParameter.html#BUSSPEED_DATA            | get busspeed data            |                              | ❌        |
-| support\PCANBasic_enu.chm; TPCANParameter.html#IP_ADDRESS               | get ip address               |                              | ❌        |
-| support\PCANBasic_enu.chm; TPCANParameter.html#LAN_SERVICE_STATUS       | get lan service status       |                              | ❌        |
+| support\PCANBasic_enu.chm; TPCANParameter.html#BUSSPEED_NOMINAL         | get busspeed nominal         |                              | ✔        |
+| support\PCANBasic_enu.chm; TPCANParameter.html#BUSSPEED_DATA            | get busspeed data            |                              | ✔        |
+| support\PCANBasic_enu.chm; TPCANParameter.html#IP_ADDRESS               | get ip address               |                              | ✔        |
+| support\PCANBasic_enu.chm; TPCANParameter.html#LAN_SERVICE_STATUS       | get lan service status       |                              | ✔        |
 | support\PCANBasic_enu.chm; TPCANParameter.html#ALLOW_STATUS_FRAMES      | get allow status frames      | set allow status frames      | ❌        |
 | support\PCANBasic_enu.chm; TPCANParameter.html#ALLOW_RTR_FRAMES         | get allow rtr frames         | set allow rtr frames         | ❌        |
 | support\PCANBasic_enu.chm; TPCANParameter.html#ALLOW_ERROR_FRAMES       | get allow error frames       | set allow error frames       | ❌        |

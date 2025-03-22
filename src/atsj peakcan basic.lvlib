@@ -109,10 +109,14 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 			<Item Name="get bitrate adapting.vi" Type="VI" URL="../get bitrate adapting.vi"/>
 			<Item Name="get bitrate info.vi" Type="VI" URL="../get bitrate info.vi"/>
 			<Item Name="get channel features.vi" Type="VI" URL="../get channel features.vi"/>
+			<Item Name="get busspeed nominal.vi" Type="VI" URL="../get busspeed nominal.vi"/>
+			<Item Name="get busspeed data.vi" Type="VI" URL="../get busspeed data.vi"/>
+			<Item Name="get ip address.vi" Type="VI" URL="../get ip address.vi"/>
+			<Item Name="get lan service status.vi" Type="VI" URL="../get lan service status.vi"/>
 		</Item>
 		<Item Name="initialize.vi" Type="VI" URL="../initialize.vi"/>
 		<Item Name="initialize fd.vi" Type="VI" URL="../initialize fd.vi"/>
-		<Item Name="deinitialize.vi" Type="VI" URL="../deinitialize.vi"/>
+		<Item Name="uninitialize.vi" Type="VI" URL="../uninitialize.vi"/>
 		<Item Name="set parameter.vi" Type="VI" URL="../set parameter.vi"/>
 		<Item Name="configure filter.vi" Type="VI" URL="../configure filter.vi"/>
 		<Item Name="get parameter.vi" Type="VI" URL="../get parameter.vi"/>
