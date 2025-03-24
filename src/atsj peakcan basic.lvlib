@@ -44,6 +44,7 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="types" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="bitrate parameters.ctl" Type="VI" URL="../bitrate parameters.ctl"/>
 			<Item Name="bitrate.ctl" Type="VI" URL="../bitrate.ctl"/>
 			<Item Name="clock frequency.ctl" Type="VI" URL="../clock frequency.ctl"/>
 			<Item Name="device type.ctl" Type="VI" URL="../device type.ctl"/>
@@ -51,7 +52,6 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 			<Item Name="ecc register error code.ctl" Type="VI" URL="../ecc register error code.ctl"/>
 			<Item Name="ecc register segment.ctl" Type="VI" URL="../ecc register segment.ctl"/>
 			<Item Name="ecc register.ctl" Type="VI" URL="../ecc register.ctl"/>
-			<Item Name="fd bitrate parameters.ctl" Type="VI" URL="../fd bitrate parameters.ctl"/>
 			<Item Name="fd bitrate.ctl" Type="VI" URL="../fd bitrate.ctl"/>
 			<Item Name="features.ctl" Type="VI" URL="../features.ctl"/>
 			<Item Name="log options.ctl" Type="VI" URL="../log options.ctl"/>
@@ -64,6 +64,8 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 			<Item Name="can fd bitrate constant (sae j2284-4).vi" Type="VI" URL="../can fd bitrate constant (sae j2284-4).vi"/>
 			<Item Name="can fd bitrate constant (sae j2284-5).vi" Type="VI" URL="../can fd bitrate constant (sae j2284-5).vi"/>
 			<Item Name="clear caution status flag.vi" Type="VI" URL="../clear caution status flag.vi"/>
+			<Item Name="decode btr.vi" Type="VI" URL="../decode btr.vi"/>
+			<Item Name="encode btr.vi" Type="VI" URL="../encode btr.vi"/>
 			<Item Name="get channel handle.vi" Type="VI" URL="../get channel handle.vi"/>
 			<Item Name="initialize - lan.vi" Type="VI" URL="../initialize - lan.vi"/>
 		</Item>
