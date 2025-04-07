@@ -26,6 +26,8 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 			<Item Name="ecc register segment n2e.vi" Type="VI" URL="../ecc register segment n2e.vi"/>
 			<Item Name="fd bitrate c2s.vi" Type="VI" URL="../fd bitrate c2s.vi"/>
 			<Item Name="length 2 dlc.vi" Type="VI" URL="../length 2 dlc.vi"/>
+			<Item Name="message c2s.vi" Type="VI" URL="../message c2s.vi"/>
+			<Item Name="message with stats c2s.vi" Type="VI" URL="../message with stats c2s.vi"/>
 			<Item Name="parameter e2n.vi" Type="VI" URL="../parameter e2n.vi"/>
 		</Item>
 		<Item Name="types" Type="Folder">
@@ -56,6 +58,7 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 			<Item Name="features.ctl" Type="VI" URL="../features.ctl"/>
 			<Item Name="log options.ctl" Type="VI" URL="../log options.ctl"/>
 			<Item Name="message type.ctl" Type="VI" URL="../message type.ctl"/>
+			<Item Name="message with stats.ctl" Type="VI" URL="../message with stats.ctl"/>
 			<Item Name="message.ctl" Type="VI" URL="../message.ctl"/>
 			<Item Name="parameter.ctl" Type="VI" URL="../parameter.ctl"/>
 		</Item>
@@ -130,4 +133,7 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 		<Item Name="write fd.vi" Type="VI" URL="../write fd.vi"/>
 		<Item Name="reset.vi" Type="VI" URL="../reset.vi"/>
 	</Item>
+	<Item Name="create messages summary.vi" Type="VI" URL="../create messages summary.vi"/>
+	<Item Name="insert message into map.vi" Type="VI" URL="../insert message into map.vi"/>
+	<Item Name="convert message into string.vi" Type="VI" URL="../convert message into string.vi"/>
 </Library>
