@@ -67,10 +67,13 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 			<Item Name="can fd bitrate constant (sae j2284-4).vi" Type="VI" URL="../can fd bitrate constant (sae j2284-4).vi"/>
 			<Item Name="can fd bitrate constant (sae j2284-5).vi" Type="VI" URL="../can fd bitrate constant (sae j2284-5).vi"/>
 			<Item Name="clear caution status flag.vi" Type="VI" URL="../clear caution status flag.vi"/>
+			<Item Name="convert message into string.vi" Type="VI" URL="../convert message into string.vi"/>
+			<Item Name="create messages summary.vi" Type="VI" URL="../create messages summary.vi"/>
 			<Item Name="decode btr.vi" Type="VI" URL="../decode btr.vi"/>
 			<Item Name="encode btr.vi" Type="VI" URL="../encode btr.vi"/>
 			<Item Name="get channel handle.vi" Type="VI" URL="../get channel handle.vi"/>
 			<Item Name="initialize - lan.vi" Type="VI" URL="../initialize - lan.vi"/>
+			<Item Name="insert message into map.vi" Type="VI" URL="../insert message into map.vi"/>
 		</Item>
 		<Item Name="polymorphics" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -133,7 +136,4 @@ Copyright (c) 2025 ATSJ (www.atsj.eu)</Property>
 		<Item Name="write fd.vi" Type="VI" URL="../write fd.vi"/>
 		<Item Name="reset.vi" Type="VI" URL="../reset.vi"/>
 	</Item>
-	<Item Name="create messages summary.vi" Type="VI" URL="../create messages summary.vi"/>
-	<Item Name="insert message into map.vi" Type="VI" URL="../insert message into map.vi"/>
-	<Item Name="convert message into string.vi" Type="VI" URL="../convert message into string.vi"/>
 </Library>
